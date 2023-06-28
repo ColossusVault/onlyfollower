@@ -2,6 +2,7 @@ import { SpaceData } from '@subsocial/api/types'
 import { HTMLProps, useContext } from 'react'
 import Chip from './Chip'
 import { SubsocialContext } from '../subsocial/provider'
+import React from 'react'
 
 type SpaceProps = HTMLProps<HTMLDivElement> & {
   spaceData: SpaceData
